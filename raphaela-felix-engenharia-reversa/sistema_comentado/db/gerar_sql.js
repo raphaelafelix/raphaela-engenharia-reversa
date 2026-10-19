@@ -56,9 +56,9 @@ INSERT INTO usuarios (nome, login, senha) VALUES
 ('Carlos Lima (Recepção)', 'carlos.recepcao', '${h('carlos123')}');
 
 INSERT INTO clientes (nome, cpf, telefone, email) VALUES
-('Maria Silva', '${criptografar('52998224725')}', '(11) 98888-1111', 'maria.silva@email.com'),
-('João Pereira', '${criptografar('11144477735')}', '(11) 97777-2222', 'joao.pereira@email.com'),
-('Fernanda Costa', '${criptografar('39053344705')}', '(11) 96666-3333', 'fernanda.costa@email.com');
+('Daenerys Targaryen', '${criptografar('52998224725')}', '(11) 98888-1111', 'daenerys.targaryen@email.com'),
+('Sansa Stark', '${criptografar('11144477735')}', '(11) 97777-2222', 'sansa.stark@email.com'),
+('Cersei Lannister', '${criptografar('39053344705')}', '(11) 96666-3333', 'cersei.lannister@email.com');
 
 INSERT INTO veiculos (placa, modelo, tipo, marca, cliente_id) VALUES
 ('ABC1D23', 'Onix', 'Carro', 'Chevrolet', 1),
