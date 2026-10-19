@@ -1,0 +1,7 @@
+Evidência de execução nesta preparação:
+- Node.js detectado: v22.16.0.
+- Comando tentado: `node server.js` dentro da pasta `sistema`.
+- Resultado: falha imediata `Error: Cannot find module 'express'`.
+- Consequência: servidor não ficou escutando em localhost:3000; testes HTTP foram marcados BLOCKED.
+- Próxima ação: em máquina com rede, execute `npm install`, depois `npm start`, e registre capturas reais para T14–T20.
+- Não foi feita alteração na base original para simular resultados.
